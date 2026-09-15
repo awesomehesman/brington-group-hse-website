@@ -45,7 +45,7 @@ Like PAINTERS-PAINTS, page files and browser modules live at the root; source as
 
 ## Business and contact configuration
 
-Edit `business-config.js`. Phone, email and WhatsApp are intentionally empty until confirmed by the owner. The footer reads the location and email from this configuration and calculates the copyright year automatically. Phone and WhatsApp are reserved for future contact links; the current page does not expose those channels.
+Edit `business-config.js`. The owner-confirmed email is `nkomo07@gmail.com`; calls and WhatsApp use `+27 78 093 8562`. Store WhatsApp numbers as international digits only (`27780938562`). The contact section and footer generate email, call and pre-filled WhatsApp links from this configuration. Visitors review and send the message in WhatsApp themselves. The footer also reads the location and calculates the copyright year automatically.
 
 ## Enquiries and future backend integration
 
@@ -61,4 +61,4 @@ Google Fonts and the existing Unsplash image URLs require internet access. No pr
 
 `npm test` covers unsent enquiries, invalid email and submission failure. Build verification checks emitted page assets. These are not visual or physical-device tests.
 
-This change organizes and adds tooling to the existing website. The original brief remains a broader backlog: full seven-service content, complete quote fields, WhatsApp integration, approved emblem, and a complete accessibility/responsive/SEO review are still outstanding. Confirm phone, WhatsApp, email, any public street address, certifications, social profiles and privacy details before adding them.
+This change organizes and adds tooling to the existing website. The original brief remains a broader backlog: full seven-service content, complete quote fields, approved emblem, and a complete accessibility/responsive/SEO review are still outstanding. Confirm any public street address, certifications, social profiles and privacy details before adding them.

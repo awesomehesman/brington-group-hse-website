@@ -640,3 +640,17 @@ em {
     text-align: left;
   }
 }
+
+.contact-details {
+  margin-top: 24px;
+}
+.contact-details a {
+  display: inline-block;
+  padding-block: 10px;
+  text-underline-offset: 4px;
+}
+[data-company-email],
+[data-company-phone],
+[data-company-whatsapp] {
+  overflow-wrap: anywhere;
+}

@@ -44,3 +44,20 @@ document.querySelectorAll('[data-company-email]').forEach((element) => {
     link.textContent = COMPANY_INFO.email;
     element.replaceChildren(link);
 });
+
+document.querySelectorAll('[data-company-phone]').forEach((element) => {
+    if (!COMPANY_INFO.phone) return;
+    const link = document.createElement('a');
+    link.href = `tel:${COMPANY_INFO.phone.replace(/[^+\d]/g, '')}`;
+    link.textContent = COMPANY_INFO.phone;
+    element.replaceChildren(link);
+});
+document.querySelectorAll('[data-company-whatsapp]').forEach((element) => {
+    if (!COMPANY_INFO.whatsapp) return;
+    const message = "Hi Brington Group, I'd like assistance with HSE services and would like to request a quote.";
+    const link = document.createElement('a');
+    link.href = `https://wa.me/${COMPANY_INFO.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
+    link.textContent = 'WhatsApp us ↗';
+    link.setAttribute('aria-label', 'Contact Brington Group on WhatsApp');
+    element.replaceChildren(link);
+});
