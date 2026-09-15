@@ -40,7 +40,7 @@ test("enquiry encodes the confirmed WhatsApp recipient, every field and special 
   assert.equal(url.searchParams.get("text"), prepared.message);
   for (const value of Object.values(valid))
     assert.ok(prepared.message.includes(value));
-  assert.equal(new URL(prepared.emailUrl).pathname, "nkomo07@gmail.com");
+  assert.equal(new URL(prepared.emailUrl).pathname, "lnkomo07@gmail.com");
   assert.ok(decodeURIComponent(prepared.emailUrl).includes(valid.message));
 });
 test("validation rejects blank content, unknown service, malformed email and phone", () => {
@@ -108,7 +108,7 @@ test("rendered page has working contacts and complete services without JavaScrip
   assert.equal(doc.querySelectorAll(".service-card").length, 7);
   assert.equal(doc.querySelectorAll("#service option").length, 9);
   assert.ok(doc.querySelector('a[href="tel:+27780938562"]'));
-  assert.ok(doc.querySelector('a[href="mailto:nkomo07@gmail.com"]'));
+  assert.ok(doc.querySelector('a[href="mailto:lnkomo07@gmail.com"]'));
   assert.equal(
     doc.querySelector('[property="og:image"]').content,
     "https://example.com/og.png",

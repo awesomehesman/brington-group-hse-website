@@ -29,7 +29,7 @@ for (const page of ["index.html", "privacy.html", "image-credits.html"]) {
       JSON.parse(
         doc.querySelector('script[type="application/ld+json"]').textContent,
       ).email,
-      "nkomo07@gmail.com",
+      "lnkomo07@gmail.com",
     );
   }
 }
