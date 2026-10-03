@@ -70,9 +70,9 @@ There are no SPA routes. `/` contains Home, About, Services, Why Brington and Co
 
 Edit `business-config.js` to update the business name, phone, email, WhatsApp number, location or service area. Current owner-confirmed details:
 
-- Calls: +27 78 093 8562
-- WhatsApp: 27780938562 (international digits only)
-- Email: lnkomo07@gmail.com
+- Calls: +27 78 093 ****
+- WhatsApp: 2778093**** (international digits only)
+- Email: lnkomo**@gmail.com
 
 The build renders contact links into HTML so they work without JavaScript. Rebuild after changing configuration. `site-content.js` supplies both the service cards and form choices.
 
