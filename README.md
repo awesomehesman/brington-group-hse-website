@@ -2,6 +2,8 @@
 
 A professional, responsive HSE consultancy website for Johannesburg and nationwide South African clients. It retains the flat HTML/CSS/JavaScript and Vite architecture requested to match `PAINTERS-PAINTS`.
 
+## Access it online
+You can access the website on: https://brington-group-hse-website.vercel.app/ 
 ## Run locally
 
 Use Node 22.13+ (Node 24 is recorded in `.nvmrc`) and npm.
