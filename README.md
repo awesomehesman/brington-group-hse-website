@@ -4,6 +4,7 @@ A professional, responsive HSE consultancy website for Johannesburg and nationwi
 
 ## Access it online
 You can access the website on: https://brington-group-hse-website.vercel.app/ 
+
 ## Run locally
 
 Use Node 22.13+ (Node 24 is recorded in `.nvmrc`) and npm.
